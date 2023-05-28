@@ -28,7 +28,7 @@ main{
 .text-area{
     height: 630px;
     background: white;
-    background-image: url("/imágenes/libro.png");
+    background-image: url("/imagenes/libro.png");
     background-repeat: no-repeat;
     background-size: 20%;
     background-position: center;
@@ -52,7 +52,7 @@ main{
 .mensaje{
     height: 630px;
     background: white;
-    background-image: url("/imágenes/x.jpg");
+    background-image: url("/imagenes/x.jpg");
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: center;
@@ -139,4 +139,3 @@ main{
     margin-top: 1px;
     margin-bottom: 25px;
 }
-
