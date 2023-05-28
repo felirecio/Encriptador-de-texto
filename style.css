@@ -1,0 +1,142 @@
+*{
+    background: #dbe8f3;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 150%;
+    overflow-y: hidden;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 5%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 60px;
+}
+
+.titulo{
+    font-size: 18px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.text-area{
+    height: 630px;
+    background: white;
+    background-image: url("/imágenes/libro.png");
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: center;
+    border:none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-top: 5px;
+    padding-left: 20px;
+    /*text-transform: lowercase;*/
+}
+
+::placeholder{
+    color:#0A3871;
+    font-size: 18px;
+}
+
+.text-area:focus{
+    outline: none;
+}
+
+.mensaje{
+    height: 630px;
+    background: white;
+    background-image: url("/imágenes/x.jpg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 10px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    transition: 300ms;
+    box-shadow: 5px 5px 5px 5px #00000027;
+}
+
+.btn-desencriptar:hover{
+    background: gold;
+    border: none;
+    transform: scale(1.03);
+}
+
+.btn-encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    transition: 300ms;
+    box-shadow: 5px 5px 5px 5px #00000027;
+    margin-bottom: 20px;
+}
+.btn-encriptar:hover{
+    background: gold;
+    border: none;
+    transform: scale(1.03);
+}
+
+.btn-copiar:hover{
+    background: gold;
+    border: none;
+    transform: scale(1.03);
+}
+
+.btn-copiar{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 10px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 50px;
+    margin-top: 565px;
+    position: absolute;
+    width: 336px;
+    font-size: 20px;
+    transition: 300ms;
+    box-shadow: 5px 5px 5px 5px #00000027;
+}
+
+.información{
+    color: #495057;
+    font-size:18px;
+    margin-top: 1px;
+    margin-bottom: 25px;
+}
+
